@@ -13,6 +13,14 @@ Agent-readable index: https://pumpgtm.com/llms.txt
 2. **Run the LinkedIn outreach.** You approve the list and the messages. PumpGTM sends connection requests and follow-ups from your LinkedIn account, paces them inside LinkedIn's limits, and pauses the sequence the moment someone replies.
 3. **Learn from replies.** Replies, qualified conversations and meetings are tracked back to the source that produced them, so targeting and messaging improve week over week.
 
+## Developer repos
+
+PumpGTM's public developer references live in the [pumpgtm](https://github.com/pumpgtm) organization:
+
+- [pumpgtm/pumpgtm-mcp](https://github.com/pumpgtm/pumpgtm-mcp): MCP server reference, all tools, live `tools.json`.
+- [pumpgtm/pumpgtm-api](https://github.com/pumpgtm/pumpgtm-api): workspace REST API, OpenAPI 3.1 spec, examples.
+- Docs: https://pumpgtm.com/docs
+
 ## For AI agents and MCP clients
 
 PumpGTM exposes its tools over the Model Context Protocol so Claude, Cursor and other MCP clients can find buyers, draft and send LinkedIn messages, and read replies.
